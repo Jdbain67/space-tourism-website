@@ -26,7 +26,9 @@
     <a href="./">
       <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
     </a>
-    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <button class="mobile-nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Menu</span>
+    </button>
     <nav> 
         <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
@@ -47,31 +49,31 @@
     </div>
     
     <!-- launch vehicle -->
-    <article class="technology-details flow" id="vehicle-tab" role="tabpanel" tabindex="0">
-      <header class="flow flow--space-small">
+    <div class="technology-details flow" id="vehicle-tab" role="tabpanel" tabindex="0">
+      <div class="flow flow--space-small">
         <p class="terminology fs-200 uppercase ff-sans-cond text-accent">The Terminology...</p>
         <h2 class="fs-700 ff-serif uppercase text-white">launch vehicle</h2>
-      </header>
+      </div>
       <p class="text-accent mt-3">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
-    </article> 
+    </div> 
     
     <!-- spaceport -->
-    <article hidden class="technology-details flow" id="spaceport-tab" role="tabpanel" tabindex="0">
-      <header class="flow flow--space-small">
+    <div hidden class="technology-details flow" id="spaceport-tab" role="tabpanel" tabindex="0">
+      <div class="flow flow--space-small">
         <p class="terminology fs-200 uppercase ff-sans-cond text-accent">The Terminology...</p>
         <h2 class="fs-700 ff-serif uppercase text-white">Spaceport</h2>
-      </header>
+      </div>
       <p class="text-accent mt-3">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
-    </article> 
+    </div> 
     
     <!-- space capsule -->
-    <article hidden class="technology-details flow" id="capsule-tab" role="tabpanel" tabindex="0">
-      <header class="flow flow--space-small">
+    <div hidden class="technology-details flow" id="capsule-tab" role="tabpanel" tabindex="0">
+      <div class="flow flow--space-small">
         <p class="terminology fs-200 uppercase ff-sans-cond text-accent">The Terminology...</p>
         <h2 class="fs-700 ff-serif uppercase text-white">Space Capsule</h2>
-      </header>
+      </div>
       <p class="text-accent mt-3">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
-    </article> 
+    </div> 
     
     <picture id="vehicle-image">
       <source media="(min-width: 45em)" srcset="assets/technology/image-launch-vehicle-portrait.jpg">

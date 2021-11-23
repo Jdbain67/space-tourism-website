@@ -14,9 +14,10 @@
   <!-- Our custom CSS -->
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Space tourism website</title>
+  <meta name="description" content="Space tourism website">
+  
   <script src="navigation.js" defer></script>
   <script src="tabs.js" defer></script>
-
 </head>
 
 <body class="crew">
@@ -25,7 +26,9 @@
     <a href="./">
       <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
     </a>
-    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <button class="mobile-nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Menu</span>
+    </button>
     <nav> 
         <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
